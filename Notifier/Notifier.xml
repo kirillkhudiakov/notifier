@@ -4,7 +4,7 @@
         <name>Notifier</name>
     </assembly>
     <members>
-        <member name="M:Notifier.Controllers.SendController.PostSendMessage(Notifier.Models.Notification)">
+        <member name="M:Notifier.Controllers.SendingController.PostSendMessage(Notifier.Models.Notification)">
             <summary>
             Sends message to particular receiver.
             </summary>

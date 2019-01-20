@@ -9,9 +9,9 @@ using Notifier.Models;
 
 namespace Notifier.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/send")]
     [ApiController]
-    public class SendController : ControllerBase
+    public class SendingController : ControllerBase
     {
         const string AppToken = "ax9ks15s9ffgf86tqk9yc4oxkaeszg";
 
