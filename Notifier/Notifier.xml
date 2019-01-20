@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Notifier</name>
+    </assembly>
+    <members>
+        <member name="M:Notifier.Controllers.SendController.PostSendMessage(Notifier.Models.Notification)">
+            <summary>
+            Sends message to particular receiver.
+            </summary>
+            <param name="notification">Notification data</param>
+        </member>
+        <member name="T:Notifier.Models.Notification">
+            <summary>
+            Encapsulates notification data.
+            </summary>
+        </member>
+        <member name="P:Notifier.Models.Notification.UserKey">
+            <summary>
+            Receiver user key.
+            </summary>
+        </member>
+        <member name="P:Notifier.Models.Notification.Message">
+            <summary>
+            Message content.
+            </summary>
+        </member>
+    </members>
+</doc>
